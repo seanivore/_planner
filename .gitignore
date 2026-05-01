@@ -1,0 +1,65 @@
+# Large Images
+*.png
+*.mov
+*.mp4
+*.jpg
+*.jpeg
+*.webm
+*.gif
+
+# CDN Images 
+/assets/images/**
+/assets/images/
+/assets/.media/**
+/assets/.media/
+
+# Environment variables
+.env
+.env.local
+
+# Virtual environment
+venv/
+
+# Python build artifacts
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Aider files
+.aider.chat.history.md
+.aider.tags.cache.v3
+
+# Dependencies
+node_modules/
+npm-debug.log*
+*.log
+*.lock
+
+# OS files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+*.swp
+*.swo
+
+# Rust specific
+target/
+**/*.rs.bk
+.cargo/
+rusty-tags.vi
+
+# Logistical Files 
+.archive/
+.ideas/
+.resources/
+.cheatsheet.txt
+.cheatsheet.md
+
+# Design Spec Images 
+.agent/apple-ui-design/**.jpeg
+.agent/apple-ui-design/**.jpg
