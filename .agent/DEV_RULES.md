@@ -1,24 +1,21 @@
 # Development Protocols
 
-**Version**: 3.2.0
-**Last Updated**: 2026-04-27
+**Version**: v3.3.1
+**Last Updated**: 2026-05-07
+**Changes Made**: Updated file sync command, added emphasis on subagent delegation
 **Purpose**: Inform agents on our standardized project structure, documentation and development workflows.
-**Syncing**: Sync any updates to all `.agent/DEV_RULES.md` files using `frdoc` (see § *Syncing This Document*).
+**Syncing**: Sync any updates to all `.agent/DEV_RULES.md` files using `filemgmt` (see § *Syncing This Document*).
 
 ---
 
-## How This Works
+## Protocols That Make The Team Effective
 
-These protocols work because they (1) **maintain lifespan documents** for future reference, (2) **agents follow standards** that maintain organization, and (3) agents take initiative **correcting protocol drift**. This is how you support each other which makes us an effective team.
-
-### Correcting Issues
-
-If you encounter inconsistencies, drift, or protocol violations, take action to correct the issues. 
-
-  A. When creating your session plan, integrate a cleanup step for the drift you observed. This is done whether or not you created the drift.
-  B. If you discover issues while following your session plan, pause and explain to human what needs cleanup for immediate approval.
-
-Do not assume you'll be able to come back later. Don't assume someone else will fix it. Don't assume that human already knows.
+  1. Agents **maintain lifespan documents** by actively building out archives for future reference
+  2. Agents **follow standards** that maintain organization and consistency
+  3. Agents support each other by taking initiative to **correct protocol drift** they encounter
+     - When creating your session plan, integrate a cleanup step for the drift you observed. 
+     - This is done whether or not you created the drift. 
+     - If you discover issues while following your session plan, give human a heads up to make sure it is drift, then fix. 
 
 **Your assistance in maintaining these protocols is greatly appreciated.**
 
@@ -26,9 +23,38 @@ Do not assume you'll be able to come back later. Don't assume someone else will 
 
 ## Development Philosophy
 
-**Planning should take 10X longer than implementation** 
+### Agentic Coding in 2026
 
-For big-picture full project planning, write and iterate the implementation plan document. Beware of dated agent training data with a bias towards figuring things out as you build; today's modern tools encourage modern workflows.
+| Activity | Time |
+| -------- | ---- |
+| Planning | 90%  |
+| Building | 10%  |
+
+### Maintain 9:1 Planning-to-Building Ratio
+
+  - Start with the big-picture
+  - Do full project planning: write the MASTER implementation plan
+  - Always be thinking about where things are headed 
+  - Take turns reviewing, have clean context agents review, always identifying gaps in the plan 
+  - Iterate, identify gaps, research -> repeat this loop -> more times than we're historically comfortable with 
+
+### Smart Session Track Creation
+
+Knowing enough of the MASTER plan leads to smart session track creation. Tracks can run in parallel, setting each other up for success. Sequential tracks can pause if they find bugs or need to alter the plan so that an updated next track plan can be created. 
+
+  * **Concurrent Documentation**: Documentation is being created for multiple features simultaneously. 
+
+  * **Parallel Development**: Becoming aware of exactly what must be done before acting allows for more work in parallel, which is certainly not something much training data accounts for. 
+
+### Beware Dated Agent Training Data 
+
+Recognize that today's tools encourage a different, more modern workflow, contrary to the stream of consciousness, build-as-you-go approach; that method is outdated.
+
+  * **The Challenge**: By design, LLMs expect answers come during active work. This stream of thought can blind one from recognizing gaps in knowledge, or considering if training data might now be out of date.
+
+  * **The Solution**: This can be a strength, if handled during planning. Move "finding solutions" thinking out of active building, and into planning where there is opportunity for revisions and review.
+
+  * **Why This Matters**: Even with extensive planning, something will fall through the cracks. This minimizes those instances helping to prevent time spent debugging later in the process. 
 
 Implementation guide planning should involve:
 
@@ -41,31 +67,27 @@ Implementation guide planning should involve:
 
 ### Core Principle 
 
-Project implementation guide preparation occurs in a research and planning loop until the plan becomes *EXCLUSIVELY EXECUTABLE*. This means that the agent following the plan to build requires no prior context, no guessing or looking anything up. If something needed to be figured out, it all should have been accounted for during planning. 
+**Loop until the plan becomes EXCLUSIVELY EXECUTABLE**
 
-### Why Work This Way 
+Project implementation guide preparation occurs in a research and planning loop, ensuring that the orchestrating *agent following the plan to build requires no prior context*, *no guessing or looking anything up*. If something needed to be figured out, it should all have been accounted for during planning. 
 
-  * **The Challenge**: By design, LLMs expect answers come during active work. This stream of thought can blind one from recognizing gaps in knowledge, or considering if training data might now be out of date.
+Specific guide on [The Gap-Finding Loop](#the-gap-finding-loop) near the bottom of this document.
 
-  * **The Solution**: This can be a strength, if handled during planning. Move "finding solutions" thinking out of active building, and into planning where there is opportunity for revisions and review.
+### AI's Struggles With Historic Processes
 
-  * **Why This Matters**: Even with extensive planning, something will fall through the cracks. This minimizes those instances helping to prevent time spent debugging later in the process. 
+Historically code was given an extremely high-value for how time consuming and exhaustive the cognitive work was. The way most people learned to debug is based very specifically on this premise. We must question these workflows given the capabilities of current agents and learn to reassign value where it makes sense to do so. 
 
-### Novel Benefits
+Agents today can write thousands of lines of code in minutes, often creating functional applications on a first build. One limitation is that LLMs can 'go down the wrong path' when producing output. This means that whole rewrites of features or functions can be more effective than the historic methods of debugging. 
 
-  * **Concurrent Documentation**: Documentation is being created for multiple features simultaneously. 
+Finally, we have to consider context windows. When bugs are 'patched' it is the code that is actually patched together. It can create a functioning application, but with a codebase that wasn't explicitly planned and never effectively documented. Consider what this mean for agents who work best from specifics where accuracy regarding the smallest details matter. 
 
-  * **Parallel Development**: Becoming aware of exactly what must be done before acting allows for more work in parallel, which is certainly not something much training data accounts for. 
+### The Agentic Orchestration Paradox
 
-### Using Modern Tools 
+The larger and more complex a task becomes, the more an AI naturally tries to shrink its scope to stay within its comfort zone — they manage context windows, rate limits, and fear losing the thread.
 
-Historic method of debugging placed code as extremely high-value, time consuming, exhaustive cognitive work. We have to question these workflows given an agent can write thousands of lines of lines of code, even an entire functional app, in a single output that just takes minutes to write. 
+**This Is A Critical Paradox**: The only way to actually execute massive, complex projects is to force the AI to act as a high-level *orchestrator* that aggressively delegates to *subagents*.
 
-Agents can "go down the wrong path" when producing output. This means that whole rewrites of features or functions can be more effective than the historic methods of debugging, even if it makes the seasoned, pre-AI developers uncomfortable. 
-
-Eliminating bugs by hunting-and-patching things together can result in a functioning application, but it creates a codebase that wasn't explicitly planned and now will be difficult to document. Agents work best from specifics where accuracy regarding the smallest details matters. 
-
-Most significantly, agents have to work inside a context window, which doesn't bode well for trying to sort through patches and code adjustments. 
+If you do not explicitly enforce this hierarchy, an agent will attempt to complete an entire massive plan in one breath—inevitably dropping context, writing buggy code, or getting rate-limited. Complex plans must be decoupled into independent tracks, and execution must rely on Orchestrator Agents assigning deterministic, tightly scoped tasks to fresh subagents.
 
 **Modern tools require modern workflows.**
 
@@ -75,7 +97,7 @@ Most significantly, agents have to work inside a context window, which doesn't b
 
 ### 1. Standard Version Number Format
 
-A three-part semantic version is used: `vMAJOR.MINOR.PATCH` (e.g., `v3.1.2`). This is used throughout the life of the project, versioning from the first implementation guide document, updating it with each revision, and then matching the version numbers with the codebase itself allowing future feature updates to continue smoothly. 
+A three-part semantic version is used: `vMAJOR.MINOR.PATCH` (e.g., `v3.1.2`). This is used throughout the life of the project, versioning from the first implementation guide document, updating it with each revision of the guide document, and then continuing the version numbers with the codebase itself, allowing future feature updates to continue smoothly.
 
 | Position           | Bumps when                                                                |
 | ------------------ | ------------------------------------------------------------------------- |
@@ -145,7 +167,7 @@ docs/
 │   └── v3_0/                  ← all v3.0.x artifacts
 ├── research/                  ← (optional) only if active research is required — see Non-Archive Doc Directories below
 ├── planning/                  ← (optional) only if active non-implementation planning is required — see Non-Archive Doc Directories below
-├── UPDATE_MAP.md              ← strategic roadmap (high-level only)
+├── IMPLEMENT_MASTER.md        ← strategic roadmap (high-level only)
 └── PROJECT_NAME.md            ← master architecture/state doc (living)
 ```
 **Note**: The `docs/` path is canonical. Older drafts that referenced `assets/docs/` were inaccurate to actual repo structure.
@@ -156,7 +178,7 @@ Only create `docs/research` or `docs/planning` if there is active, ongoing resea
 
 #### Root Doc Files
 
-The `docs/UPDATE_MAP.md` document is important when it is necessary for agents working on the project to see where the project is headed, so that we can build accordingly, setting ourselves up for success along the way, rather than having to double back and make larger changes in the future. 
+The `docs/IMPLEMENT_MASTER.md` document is important when it is necessary for agents working on the project to see where the project is headed, so that we can build accordingly, setting ourselves up for success along the way, rather than having to double back and make larger changes in the future. This is what will be iterated on, and then when needed, tracks pulled out and tasked to orchestrators to implement. 
 
 ### 5. Archive File Naming Protocol
 
@@ -230,11 +252,11 @@ The Working Chronological Example tree in § 5 *is* the lifecycle. Read it top-t
 
 Three master documents live outside the archive. Each has a single, explicit role.
 
-| Doc                    | Role                                             | Updated when                          |
-| ---------------------- | ------------------------------------------------ | ------------------------------------- |
-| `docs/PROJECT_NAME.md` | Single truth source; current states architecture | Every non-trivial change ships        |
-| `docs/UPDATE_MAP.md`   | Strategic roadmap; plan now by knowing future    | Direction shift; milestone finished   |
-| `.agent/DEV_RULES.md`  | Rules of engagement; this document               | When a convention is added or changed |
+| Doc                        | Role                                             | Updated when                          |
+| -------------------------- | ------------------------------------------------ | ------------------------------------- |
+| `docs/PROJECT_NAME.md`     | Single truth source; current states architecture | Every non-trivial change ships        |
+| `docs/IMPLEMENT_MASTER.md` | Strategic roadmap; plan now by knowing future    | Direction shift; milestone finished   |
+| `.agent/DEV_RULES.md`      | Rules of engagement; this document               | When a convention is added or changed |
 
   * If a fact in archive doc, from a **PAST** implementation guide version, conflicts with `PROJECT_NAME.md`, **`PROJECT_NAME.md` wins** (it's living; passed versions in archive are is frozen).
 
@@ -278,7 +300,19 @@ We use `main` branch as strictly reserved for **production-ready, tagged release
 
 ### 0. Initializing a New Project
 
-When starting a brand new repository, you must create the `main` branch first before setting up the `dev` environment:
+The basics create your project directory in the ~/Developments/ directory and populate the new directory with the basics we have prepared as a template for any new project. 
+
+```bash 
+# 1. Make sure you're in our Development directory
+cd ~/Development
+# 2. Create your project directory and move into it
+mkdir <new-project> 
+cd <new-project> 
+# 3. Copy the repository skeleton into your new project
+cp -R /Users/seanivore/Development/_git_init/. .
+```
+
+Then setup git and the GitHub repo for your new project. You must create the `main` branch first before setting up the `dev` environment:
 
 ```bash
 # 1. Initialize git and make the first commit
@@ -289,7 +323,13 @@ git commit -m "chore: initial commit"
 # 2. Assign the primary branch as main (if not default)
 git branch -M main
 
-# 3. Create and switch to the development branch immediately
+# 3. Create GitHub repository for project
+gh repo create <new-project> --public --source=. --remote=origin
+
+# 4. Push main branch to GitHub 
+git push -u origin main
+
+# 5. Create and switch to the development branch
 git checkout -b dev
 ```
 
@@ -344,9 +384,9 @@ git push origin dev
 
 ---
 
-## Exclusively Executable Implementation Plans
+## Implementation Plans Must Haves
 
-Details from our **development philosophy**.
+Details from our **development philosophy**: plan Exclusively Executable guides.
 
 ### Requirements for Every Update Document
 
@@ -383,6 +423,38 @@ Details from our **development philosophy**.
   - Performance considerations
   - Write what a new instance with no context must know 
   - What might you have changed if you didn't know how development progressed 
+
+#### 5. Confirmed Decisions Only
+
+The `vX_Y_Z_IMPLEMENT.md` the executing agent reads contains **only confirmed decisions**. Nothing is up for re-evaluation during execution.
+
+  - No decision framing, no alternatives, no "we could X or Y", no "Decision Dn" markers, no "TBD".
+  - Everything has been discussed, researched, and locked in earlier `_DEV_PLANNING.md` or `_FEEDBACK.md` sessions.
+  - If something still reads like a decision, it belongs in those planning artifacts — not in IMPLEMENT.md.
+  - If a subagent surfaces a decision-shaped question during execution, that is a real bug in the plan. Stop, surface to the human, fix the plan, then continue. **Never decide on the agent's own.**
+
+This is what makes "exclusively executable" mechanically true: the agent has nothing to decide, so it cannot accidentally decide wrong.
+
+#### 6. No Mixed Truth
+
+Never feed an executing agent both a known-wrong fact and the right one at the same time. LLMs cannot be trusted to consistently pick the right one when both are present in their context. Mixing wrong with right is a setup for the model acting on the wrong one.
+
+  - "Wrong truth" examples that must be removed or fixed *before* the agent sees the plan: stale endpoint paths, superseded decisions, bugs noted but not yet patched, "carry forward from `vX_Y_Z`" redirects, "Phase 0 fixes the following bugs" sections folded into forward spec.
+  - Code-level bug fixes happen in a **prep session** before the executing agent gets the plan. Only the post-fix world enters the next version's IMPLEMENT.md.
+  - Closeout reports, session reports, bug reports, and pre-flight findings are *historical artifacts*. Their content folds into the next IMPLEMENT.md as standing behavior, not as references the agent must reconcile.
+  - The executing agent's required-reads list never includes a closeout, bug report, or earlier-version IMPLEMENT.md. The highest-version IMPLEMENT.md is the current truth; everything else is archive.
+
+The mechanical rule: **fix or remove, then execute.** Do not ask an LLM to debug your own context.
+
+#### 7. Parallel-Workflow Groundwork (The Orchestrator's Blueprint)
+
+IMPLEMENT.md gives the executing orchestrator an explicit starting point for parallel work. Don't make them design the parallel structure cold. This is the operational layer of combating the Agentic Orchestration Paradox.
+
+  - **Subagent Groupings:** Per phase, propose explicit subagent groupings. Define which deliverables can run in parallel, which dependencies sequence them, and what context specifically needs to be passed to each subagent. 
+  - **Boundaries of Delegation:** Explicitly state what the orchestrator does NOT delegate (e.g., gate decisions, branch state, commit cadence, escalation calls, verification reads). The orchestrator manages the pipeline; the subagents do the typing.
+  - **Placeholders as Decouplers:** Use strict placeholder conventions (`<!-- PLACEHOLDER: ... -->`) to sever dependencies between teams (e.g., allowing frontend UI subagents to build in parallel with backend API subagents).
+  - Treat the groupings as a *starting point*, not a contract — the orchestrator may refine them during execution. The plan's job is to remove the cold-start design problem so the agent can spend its context on orchestration, not architecture.
+  - This is also a quiet form of best-practice modeling: every IMPLEMENT.md that mandates subagent delegation reinforces the orchestration habit across future projects.
 
 ### The Gap-Finding Loop
 
@@ -750,12 +822,10 @@ Fixes #38
 This file is intended to be the same across projects. To propagate updates from one canonical copy out to every other project:
 
 ```bash
-frdoc -n /path/to/canonical/.agent/DEV_RULES.md \
-      -s ~/Development \
-      -r .agent/DEV_RULES.md
+filemgmt -f ~/Development -r /path/to/canonical/.agent/DEV_RULES.md
 ```
 
-`frdoc` (find-replace-doc) lives at `~/Development/scripts/frdoc`. Run `frdoc -h` for full help. The same script can be used to sync any canonical doc across projects (for example, a master `BRAND.md`).
+`filemgmt` (Bulk Directory File Management) is globally available as a custom command. Run `filemgmt -h` for full help. The same script can be used to explicitly add files to all project `.agent` folders via the `-a` flag (e.g. `filemgmt -f ~/Development/*/.agent -a /path/to/canonical/.agent/RESEARCH_PROTOCOL.md`).
 
 **Note**: Project-specific learnings live in `.agent/PROJECT_LESSONS.md`, which is **not** synced — every project keeps its own incident history.
 
