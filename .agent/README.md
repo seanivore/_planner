@@ -51,17 +51,17 @@ cd [project-name]
 └── [config-files]        # Purpose
 ```
 
-**Full documentation**: [PROJECT_NAME.md](/assets/docs/PROJECT_NAME.md)
+**Full documentation**: [PROJECT_NAME.md](/jesse_michels/docs/PROJECT_NAME.md)
 
 ---
 
 ## Documentation
 
-| Document                                     | Description                  |
-|----------------------------------------------|------------------------------|
-| [Architecture](/assets/docs/PROJECT_NAME.md) | Complete technical reference |
-| [Updates](/assets/docs/NEXT_STEPS.md)        | How to extend the project    |
-| [Other Doc](/path/to/doc.md)                 | Purpose                      |
+| Document                                            | Description                  |
+| --------------------------------------------------- | ---------------------------- |
+| [Architecture](/jesse_michels/docs/PROJECT_NAME.md) | Complete technical reference |
+| [Updates](/jesse_michels/docs/NEXT_STEPS.md)        | How to extend the project    |
+| [Other Doc](/path/to/doc.md)                        | Purpose                      |
 
 ---
 
