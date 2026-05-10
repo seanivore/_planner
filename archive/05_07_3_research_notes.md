@@ -50,10 +50,3 @@ To implement a system like `cloudflare/agentic-inbox`:
 
 ---
 
-## Track 3: Forrest Bathing Design Workflow
-
-To build the client site:
-1. Process the handwritten notes to extract the core philosophy and copy.
-2. Generate base images via **Nano Banana 2** (e.g., organic, translucent, glass-like nature aesthetics).
-3. Animate them into looping videos using **Seed Dance 2** or **Kling 3.0** (no camera movement, perfect loop).
-4. Extract UI elements from Dribbble/motionsites.ai, feed them into **Claude Design**, and prompt it to build the layout applying a cohesive glassmorphism style over your looping backgrounds.
