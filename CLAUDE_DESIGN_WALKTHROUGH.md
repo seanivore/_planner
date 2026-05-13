@@ -11,7 +11,7 @@
 ## Resources 
 
 Explore what comes with my PRO subscription: `aistudio.google.com`
-Inspiration: `land-book.com`
+Inspiration finder: `land-book.com`
 Template websites to copy into prompt `motionsites.ai`
 Animated looped background: `motionsites.ai/backgrounds`
 
@@ -75,3 +75,4 @@ Animated looped background: `motionsites.ai/backgrounds`
       > Create me an image like this in 8k, same layout of text. Remove the background, just keep the text and any cards and icons on plain black background. I don't want the background image.
       - The result looks like a wireframe which is what was needed as a sample image to provide with the video URL
       > Build out this section as it is, under the hero section. Use this video for the background URL
+

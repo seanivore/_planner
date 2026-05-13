@@ -3,27 +3,43 @@
 
 **Last Updated**: YYYY-MM-DD
 **Version**: v1.0.0
-**Status**: Status of project
+**Status**: Status of project — note **shipped** vs **spec-only** when relevant (e.g., "v3 shipped; v4 in active build; v5 spec-only in IMPLEMENT")
 
 ---
 
 ## Executive Summary 
 
   + **Purpose**: this document provides everything a new AI instance needs to understand and work on this project effectively; it also serves as comprehensive technical documentation
-  + **Use**: read this first before making any changes
+  + **Use**: read this first before making any changes; update it after non-trivial changes ship
+
+---
+
+## How This Doc Relates to IMPLEMENT.md
+
+`PROJECT_NAME.md` is the **living architecture/state doc** — what *is* true about the project right now. The current `vX_Y_Z_IMPLEMENT.md` in `docs/archive/vX_Y/` is the **living roadmap** — what's coming next, in detail.
+
+The two play different roles:
+
+  + **PROJECT_NAME.md** holds finalized architecture, the design system, file-structure references, common pitfalls, and the strategic roadmap *summary* (milestone-level only). Reference content lives here so IMPLEMENT and BUILD docs don't have to repeat it.
+  + **`vX_Y_Z_IMPLEMENT.md`** holds the active per-milestone detail. As chunks are promoted to BUILD and ship, the corresponding section in IMPLEMENT is condensed and the architectural detail migrates into PROJECT_NAME.md.
+
+This means PROJECT_NAME.md grows over time as the project ships, and IMPLEMENT.md stays focused on what's still ahead. If you find a fact in PROJECT_NAME.md that contradicts the current IMPLEMENT, IMPLEMENT wins (PROJECT_NAME was likely not yet updated). If a past version's IMPLEMENT contradicts PROJECT_NAME.md, PROJECT_NAME.md wins (past IMPLEMENTs are frozen). See `.agent/DEV_RULES.md` § *Master Documents* for the full conflict resolution rule.
+
+**Notation convention**: when a section describes work that's spec-only (planned but not yet shipped), prefix it with **`[spec-only]`**. When it describes shipped behavior, no prefix needed. This keeps a future agent from acting on a planned-but-not-implemented architectural decision.
 
 ---
 
 ## Table of Contents
 
   1. [Project Overview](#project-overview)
-  2. [Recent Updates](#recent-updates)
-  3. [Architecture Explained](#architecture-explained)
-  4. [How to Run & Test Locally](#how-to-run--test-locally)
-  5. [File Structure & Key Files](#file-structure--key-files)
-  6. [Design System & Styling](#design-system--styling)
-  7. [Common Pitfalls & Important Notes](#common-pitfalls--important-notes)
-  8. [Deployment](#deployment)
+  2. [Strategic Roadmap](#strategic-roadmap)
+  3. [Recent Updates](#recent-updates)
+  4. [Architecture Explained](#architecture-explained)
+  5. [How to Run & Test Locally](#how-to-run--test-locally)
+  6. [File Structure & Key Files](#file-structure--key-files)
+  7. [Design System & Styling](#design-system--styling)
+  8. [Common Pitfalls & Important Notes](#common-pitfalls--important-notes)
+  9. [Deployment](#deployment)
 
 ---
 
@@ -93,6 +109,37 @@
 
   + User goal 1: description
   + User goal 2: description
+
+---
+
+## Strategic Roadmap
+
+Milestone-level orientation only. Detailed plans for each milestone live in `docs/archive/vX_Y/vX_Y_Z_IMPLEMENT.md` (the highest-numbered version is the active living roadmap). This section exists so any agent can see the milestone shape without reading the full archive.
+
+### Public Release Line
+
+[If the project has a "first public release" pin — e.g., "Does not ship publicly until vX.0.0 because feature Y is the prerequisite" — state it here. Otherwise remove this subsection.]
+
+### Milestones
+
+| Version   | Theme                          | Ship to            | Status                              |
+| --------- | ------------------------------ | ------------------ | ----------------------------------- |
+| **vX.x**  | What this milestone is about   | Internal / Public  | In flight / Planned / Spec-only     |
+| **vY.0**  | What this milestone is about   | Public / Soft launch | Research / Planned                |
+| **vNext** | Strategy phase, not promised   | TBD                | Strategy phase                      |
+
+### vX.x — [milestone name]
+
+[One-paragraph framing. Then bullets for each minor or patch under this milestone, with a short sentence and a pointer to the IMPLEMENT/BUILD detail.]
+
+- **vX.0.0** (current/shipped/spec-only) — what this version does. Spec: `docs/archive/vX_Y/vX_Y_Z_IMPLEMENT.md` § [section].
+- **vX.1.0** — what this version does. Spec: [path].
+
+### Roadmap rules of thumb
+
+- **One IMPLEMENT.md per version** — this section names versions; details live there.
+- **Research before promotion** — anything in vNext stays in `docs/research/` until a `final_recommendations.md` closes the bucket.
+- **Don't read this section during execution** — the active BUILD or IMPLEMENT is the source of truth for what to build *now*. This section is for orientation.
 
 ---
 

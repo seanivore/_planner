@@ -51,17 +51,17 @@ cd [project-name]
 └── [config-files]        # Purpose
 ```
 
-**Full documentation**: [PROJECT_NAME.md](/jesse_michels/docs/PROJECT_NAME.md)
+**Full documentation**: [docs/PROJECT_NAME.md](docs/PROJECT_NAME.md) (or the equivalent project tech doc, e.g. `docs/THOT_APP.md`)
 
 ---
 
 ## Documentation
 
-| Document                                            | Description                  |
-| --------------------------------------------------- | ---------------------------- |
-| [Architecture](/jesse_michels/docs/PROJECT_NAME.md) | Complete technical reference |
-| [Updates](/jesse_michels/docs/NEXT_STEPS.md)        | How to extend the project    |
-| [Other Doc](/path/to/doc.md)                        | Purpose                      |
+| Document                                                | Description                                                                  |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Architecture](docs/PROJECT_NAME.md)                    | Complete technical reference (or project equivalent like `docs/THOT_APP.md`) |
+| [Active roadmap](docs/archive/vX_Y/vX_Y_Z_IMPLEMENT.md) | Current milestone plan (highest-numbered version directory)                  |
+| [Agent protocols](.agent/DEV_RULES.md)                  | Cross-project workflow and naming conventions                                |
 
 ---
 

@@ -1,8 +1,22 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Thot — Agent Personality and Context
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+This file is the personality / voice / standing-orders directive an agent reads at session start. **Process rules** (versioning, branching, file naming, gap-finding loop) live in `.agent/DEV_RULES.md` — read both. This file is about *how* you show up; `DEV_RULES.md` is *what you do*.
+
+**Project tech stack:** Vite + TypeScript + CodeMirror 6 (markdown editor). Deployed as web app + PWA at `thots.august.style`. There is no Next.js, React, or framework — vanilla DOM with CodeMirror's editor primitive.
+
+---
+
+## Document Map (read this before doing anything else)
+
+  + **`.agent/DEV_RULES.md`** — process rules. Versioning, branching, file types (IMPLEMENT / SESSION / BUILD / BUGS / FEEDBACK), the Two Operating Modes (initiative vs patch), the Gap-Finding Loop, the BUILD_REPORT contract, the no-pass-through rule. *What you do.*
+  + **`.agent/RESEARCH_PROTOCOL.md`** — the heavy research framework. Reach for this only when the project genuinely needs business-planning depth (market positioning, competition, monetization), **not** for routine implementation research. DEV_RULES § *Research Phase Best Practices* explains the distinction.
+  + **`docs/PROJECT_NAME.md`** (or project equivalent like `docs/THOT_APP.md`) — living architecture/state doc. Read this first to get oriented.
+  + **`docs/archive/vX_Y/vX_Y_Z_IMPLEMENT.md`** — the evolving planning artifact for the current initiative. The version number bumps with every meaningful revision (one continuous track per § *Versioning § 1*) — it's not a software release counter. The highest-numbered IMPLEMENT in an initiative directory is active. Each file's 2-line header (`Initiative`, `Revision driven by`) explains why this revision exists — trust the header over filename pattern-matching.
+  + **BUILD packets** — execution-ready chunks handed to an orchestrator. Initiative-mode tracks use letter labels: `vX_Y_Z_TRACK_<LETTER>_BUILD.md` (e.g. `v5_0_3_TRACK_A_BUILD.md`). Letters keep scope honest — descriptive names pigeonhole when track scope grows beyond the original label. Patch-mode or single-track: `vX_Y_Z_BUILD.md`. If you receive one, do NOT read past IMPLEMENTs, BUGS, FEEDBACK, or BUILD_REPORTs — they're historical artifacts whose content is already folded into your BUILD.
+  + **SESSION + FEEDBACK** — date-named (`YYYY_MM_DD_SESH.md`, `YYYY_MM_DD_FEEDBACK.md`). Event-in-time records that drive IMPLEMENT revisions or app-version ships. Headers point at what they affect.
+  + **`.agent/PROJECT_LESSONS.md`** — incidents that shaped this project's protocols. Skim once per project.
+
+---
 
 <!-- BEGIN:about-human -->
 ## ABOUT THE HUMAN 
