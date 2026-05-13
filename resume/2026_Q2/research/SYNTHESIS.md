@@ -70,12 +70,12 @@ Senior-coded verbs that still land (used sparingly, with metric): *architected, 
 
 ## Pricing benchmark (useful for variants that name a rate)
 
-| Role | Monthly retainer | Day rate |
-|---|---|---|
-| Fractional CMO (mid-market) | $5K–$15K | $1.5K–$3.5K |
-| Fractional CMO (growth $10–200M ARR) | $15K–$40K+ | $2K–$3.5K |
-| Fractional Creative Director | $5K–$8K typical embedded | $1.2K–$2.5K |
-| AI/design generalist consultant | $85/hr avg (Mercor); $300–500/hr strategic | — |
+| Role                                 | Monthly retainer                           | Day rate    |
+| ------------------------------------ | ------------------------------------------ | ----------- |
+| Fractional CMO (mid-market)          | $5K–$15K                                   | $1.5K–$3.5K |
+| Fractional CMO (growth $10–200M ARR) | $15K–$40K+                                 | $2K–$3.5K   |
+| Fractional Creative Director         | $5K–$8K typical embedded                   | $1.2K–$2.5K |
+| AI/design generalist consultant      | $85/hr avg (Mercor); $300–500/hr strategic | —           |
 
 Tiering: $5–6.5K = 2 days/wk; $7–8.5K = 3 days/wk; $8.5–10K = ~4 days/wk embedded.
 

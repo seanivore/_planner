@@ -1,4 +1,4 @@
-<!-- Reviewer notes -->
+<!-- Reviewer notes
 - Banned-word scrub: removed "Drove" (PETA bullet) and reworked into "Cut CPA from baseline to $0.002." No leveraged/spearheaded/realm/intricate/showcasing/pivotal present. No "generalist."
 - Moved the top-3 lead metrics into the summary (3.2B / $0.002 / $0.31 / $0.003 / 2→13 / six-figure donation from one viral post), in priority order.
 - Every Experience role now carries 3+ numeric bullets. PETA and Freelance lead with stacked metrics; SMB consulting role rebuilt around CPA/CPE/ROAS numbers; Silent Labs given concrete unit/run numbers (3,000 comics, 16-month tenure, two-platform channel coverage) to keep the variant honest — bullets without a real number were rewritten or cut.
@@ -8,7 +8,7 @@
 - PETA section anchored as credibility: stacked team-scaling, $0.002 CPA, 3.2B impressions, six-figure donation post, 1M+ app downloads. Lisa Lange "He's making history." kept as a final attribution-style bullet at the bottom of the PETA block.
 - Word count target ~650–700 — landed at ~670.
 - Header exact per spec.
-<!-- end notes -->
+-->
 
 # Sean August Horvath
 

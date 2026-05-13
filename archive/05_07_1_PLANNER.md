@@ -3,10 +3,8 @@
 **Updated**: 2026-05-07 15:42
 **Status**: 4 points ready for agent handoff 
 
-  1. Cloud-Mail Email Research
-     `cloud-mail-email/CLOUD_MAIL.md`
-
-  2. Explore the tools on this list
+  
+  1. Explore the tools on this list
      `REPOS_PRINT_MONEY.md`
      - Which are valid, well known, talked about positively
      - Interesting ways they're being used
@@ -17,7 +15,7 @@
        - Could potentially be made in to job hunting and application and even networking pipeline 
        - As an example
 
-  3. I want to know all about Forrest Bathing 
+  2. I want to know all about Forrest Bathing 
      `forrest-bathing/...`
      - Mother took a class 
      - I need to build a website
@@ -25,12 +23,3 @@
      - Probably will use Claude Design `CLAUDE_DESIGN_WALKTHROUGH.md`
      - Need images created, then animated for background of sites 
      - Possible AI pipeline ideas to help client long term
-
-  4. Start organizing materials for a cold reach out to podcast host Jesse Michels
-     `jesse_michels/...`
-     - Learn about him generally 
-     - All about his podcast: American Alchemy 
-     - As much about his company as possible 
-     - Does he have an agent? Any idea of his team? 
-     - Review notes document and create new documents organizing these materials 
-     - [Jesse Michels](mailto:usa.alchemy@gmail.com)

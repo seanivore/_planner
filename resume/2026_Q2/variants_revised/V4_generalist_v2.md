@@ -1,4 +1,4 @@
-<!-- Reviewer notes -->
+<!-- Reviewer notes 
 - Word count: ~680 (was 724). Tightened summary, compressed Freelance opener paragraph, cut redundant qualifiers.
 - "Generalist" never appears in the resume body. Title positions as "Brand, Web & Growth Lead" — three named depths instead of a label.
 - Banned words swept: removed "leveraged" (was not present), "drove," "showcasing," etc. No banned terms remain.
@@ -12,7 +12,7 @@
 - Bullet formula honored: tool + task + outcome + business reason. Senior verbs (architected, unified, partnered with, set the direction for, established, oversaw) used sparingly.
 - Problem-definition framing added: CK Heals ("partnered on positioning before touching design"), Silent Labs ("translating cryptographic concepts non-technical audiences could parse"), PETA ("recruited as single contributor… built the team").
 - Education tightened to one line per senior framing convention.
-<!-- end notes -->
+-->
 
 # Sean August Horvath
 

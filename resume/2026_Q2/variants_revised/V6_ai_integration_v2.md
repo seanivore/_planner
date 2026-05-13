@@ -1,4 +1,4 @@
-<!-- Reviewer notes -->
+<!-- Reviewer notes
 - Kept the V6 thesis: AI gets more bullet real estate than other variants, but every AI bullet names a specific tool (Claude Code, MCP, Parallel Volley Funnel, Whisper, Figma AI, Optimizely) and follows Tool + Task + Outcome + Business reason.
 - Tightened summary to surface the designer-engineer differentiation as the explicit pitch ("engineers who ship rarely understand brand; designers who ship are rare").
 - Reordered freelance bullets so the four MCP servers + Parallel Volley Funnel sit at the top as headline credentials, followed by the three live builds as proof-of-shipping.
@@ -8,7 +8,7 @@
 - Skills ordered AI & Workflow → Engineering → Design per V6 instructions.
 - Title line is name + contact only. AI lives in subtitle, summary, skills, bullets.
 - ~680 words.
-<!-- end notes -->
+-->
 
 # Sean August Horvath
 sean@august.style | (424) 744–7687 | www.august.style

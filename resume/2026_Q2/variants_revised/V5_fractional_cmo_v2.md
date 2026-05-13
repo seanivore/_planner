@@ -1,4 +1,4 @@
-<!-- Reviewer notes -->
+<!-- Reviewer notes
 - Word count target ~650–700; v1 came in at 606 (thin). Grew through depth: problem→decision→outcome framing per role, sharper engagement-shape line, and a tighter Silent Labs problem statement that was missing the "no in-house creative function" decision context.
 - Every role now leads with problem definition before deliverable (SYNTHESIS senior tell).
 - Verbatim fractional vocabulary present: "embedded executive," "translate business objectives into creative executions," "champion AI creative tools," "raise creative standards," "protect the brand POV," "0.4–0.6 FTE / 2–3 days per week," "productized 90-day diagnostic."
@@ -7,7 +7,7 @@
 - PETA team-scaling material (2→13, 15 creators, 30M+ audience copywriting, global verticals trained) sits at the top of that role with senior verbs.
 - Header uses pipes per spec.
 - Banned words swept; no "generalist."
-<!-- end notes -->
+-->
 
 # Sean August Horvath
 

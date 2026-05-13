@@ -24,22 +24,6 @@ Given your background in BTC derivatives, this is the most direct path to the "p
 
 ---
 
-## 2. Stealth & AI Infrastructure (The Enablers)
-To make money with AI, the AI needs unfettered access to data. These tools solve the biggest bottlenecks.
-
-### **Camofox Browser** (`jo-inc/camofox-browser`)
-**The Verdict:** An absolute game-changer for web scraping.
-- **How it works:** Standard headless browsers (Puppeteer/Playwright) are instantly blocked by Cloudflare. Camofox bypasses this by patching Firefox at the base C++ level. It natively spoofs hardware concurrency, WebGL renderers, and screen geometry. 
-- **Agent Superpowers:** It exposes a REST API that outputs "Accessibility Snapshots" instead of raw HTML. This reduces the LLM context window cost by 90% while providing stable element IDs (`e1`, `e2`) so the agent knows exactly what to click.
-- **Use Case:** You can use this to scrape Jesse Michels' private community boards or competitors' pricing pages without ever triggering a CAPTCHA.
-
-### **Context Mode** (`mksglu/context-mode`)
-**The Verdict:** Massive cost-saver for Claude Code.
-- **How it works:** This is an MCP server that uses SQLite FTS5 (Full-Text Search) to sandbox tool outputs. Instead of dumping a 10,000-line log into Claude’s context window (costing you money), it indexes the output and only feeds Claude the relevant snippets. 
-- **Use Case:** It claims a 98% reduction in context usage. If you are doing heavy coding with Claude across massive codebases, this pays for itself immediately.
-
----
-
 ## 3. Agency Tools (B2B Consulting)
 These are plug-and-play tools you can use to immediately bill clients for audits.
 

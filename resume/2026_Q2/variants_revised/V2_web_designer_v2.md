@@ -1,4 +1,4 @@
-<!-- Reviewer notes -->
+<!-- Reviewer notes 
 - Cut from 751 to ~680 words. Removed the redundant "Established a reusable design-token" bullet from Freelance (the three live builds already prove the system layer). Trimmed Silent Labs from three bullets to two stronger ones; trimmed PETA to three tightest bullets; tightened Seanivore Group prose and bullets.
 - Banned-word audit: none of the flagged terms appear. No "generalist." No "AI-native," no "leveraged," no "spearheaded," no "showcasing."
 - AI mentioned in exactly three places: summary line ("AI-augmented"), skills cluster ("AI-Assisted Workflow"), and one bullet (Freelance agentic SOP). Removed AI from the Silent Labs/PETA bullets — V2 is a craft-first web designer angle.
@@ -8,7 +8,7 @@
 - Header line set to the exact required format.
 - Removed the social-creative/Instagram-Top-20-Brand-Tweets bullet from PETA — pure social, doesn't carry the V2 web angle.
 - Kept CK Heals "tripled quarterly lead generation" in Seanivore but reframed against the Webflow build (web designer evidence, not marketing evidence).
-<!-- end notes -->
+-->
 
 # Sean August Horvath
 
@@ -24,7 +24,7 @@ Web designer building end-to-end product experiences — React/TypeScript on the
 
 ## PROFESSIONAL EXPERIENCE
 
-**FREELANCE FRACTIONAL CONSULTANT — Boston, MA** &nbsp; *Dec 2023 – Present*
+**FREELANCE FRACTIONAL CONSULTANT — Boston, MA**  *Dec 2023 – Present*
 *Web Designer & AI Integration Consultant*
 
 Three concurrent client builds shipped on a hybrid design-and-engineering retainer. Own discovery, design system, front-end build, and infrastructure on each engagement.
@@ -34,7 +34,7 @@ Three concurrent client builds shipped on a hybrid design-and-engineering retain
 - Built august.style as a 37-entry JSON-driven portfolio CMS with tag-based homepage filtering across role, skill, product, and company axes; per-entry pages are pre-rendered with baked-in meta tags so social shares and search crawlers get full SEO without a framework runtime.
 - Productized an agentic entry-creation SOP using Claude Code — drafts the JSON, sources and processes images through Cloudinary, and pushes to the R2 CDN before human review — cutting new portfolio entries from hours to minutes.
 
-**SILENT LABS — Austin, TX** &nbsp; *Aug 2020 – Nov 2023*
+**SILENT LABS — Austin, TX**  *Aug 2020 – Nov 2023*
 *Art Director (Brand + UI)*
 
 Owned the design system across web, motion, and print for a Web3 privacy protocol, including UI partnership with the front-end team on the marketing site.
@@ -42,7 +42,7 @@ Owned the design system across web, motion, and print for a Web3 privacy protoco
 - Partnered with a Webflow developer on UI animation and interaction work in Figma, delivering After Effects + Lottie specs alongside static comps to cut handoff from multi-round revisions to single-pass.
 - Designed type, color, and component tokens for product, web, and editorial surfaces in 90 days, replacing four disconnected visual languages with one reusable kit — then directed 30+ animated social videos and a 3,000-copy printed comic book on the same system.
 
-**SEANIVORE GROUP LLC — Los Angeles, CA** &nbsp; *Jan 2019 – Aug 2020*
+**SEANIVORE GROUP LLC — Los Angeles, CA**  *Jan 2019 – Aug 2020*
 *Web Designer & Digital Consultant*
 
 Independent design-and-build studio for SMB clients across health, lifestyle, and entertainment — Webflow CMS sites with custom illustration and email lifecycle work.
@@ -50,7 +50,7 @@ Independent design-and-build studio for SMB clients across health, lifestyle, an
 - Designed and built CK Heals, a Webflow healthcare practitioner site with virtual yoga scheduling and online training infrastructure; the redesign tripled quarterly lead generation for the client.
 - Shipped 8+ Webflow client sites with reusable section components, type systems, and CMS structures so non-technical owners could update content without breaking layout.
 
-**PETA, INC. — Los Angeles, CA** &nbsp; *Mar 2011 – Dec 2018*
+**PETA, INC. — Los Angeles, CA**  *Mar 2011 – Dec 2018*
 *Marketing Innovations Assistant Manager (2016–2018) • Senior Social Media Strategist (2013–2016)*
 
 Promoted twice across seven years on the digital team. Designed daily creative and partnered with internal engineering on mobile and web infrastructure for a 30M+ audience.

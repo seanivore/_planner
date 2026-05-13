@@ -41,16 +41,16 @@ The winning frame in 2026: **T-shaped with a named depth** ("Brand systems desig
 
 ## 5. Anti-Patterns — What Lands vs. What Eye-Rolls
 
-| Phrase | Status 2026 |
-|---|---|
-| "Leveraged AI to…" | **Dead.** Top AI-tell phrase ([Resume Polished](https://www.resumepolished.com/blog/using-ai-for-resumes)) |
-| "AI-powered [noun]" | Eye-roll when used about yourself; OK when describing a tool you used |
-| "AI-native" | Cringe outside of startup founder bios |
-| "10x with AI" | Dead — reads as LinkedIn-influencer voice |
-| "Spearheaded / Synergized / Drove" | Dead — *"you'd never say these out loud"* ([Resume Polished](https://www.resumepolished.com/blog/using-ai-for-resumes)) |
-| "AI-augmented" | **Lands.** Current preferred framing ([MeritForge](https://www.meritforgeai.com/blog/prompt-engineering-resume/)) |
-| "AI-assisted workflows" | **Lands.** ATS-friendly + recruiter-readable |
-| "Built / shipped / cut [X] by Y% using [named tool]" | **Lands.** Gold standard |
+| Phrase                                               | Status 2026                                                                                                             |
+| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| "Leveraged AI to…"                                   | **Dead.** Top AI-tell phrase ([Resume Polished](https://www.resumepolished.com/blog/using-ai-for-resumes))              |
+| "AI-powered [noun]"                                  | Eye-roll when used about yourself; OK when describing a tool you used                                                   |
+| "AI-native"                                          | Cringe outside of startup founder bios                                                                                  |
+| "10x with AI"                                        | Dead — reads as LinkedIn-influencer voice                                                                               |
+| "Spearheaded / Synergized / Drove"                   | Dead — *"you'd never say these out loud"* ([Resume Polished](https://www.resumepolished.com/blog/using-ai-for-resumes)) |
+| "AI-augmented"                                       | **Lands.** Current preferred framing ([MeritForge](https://www.meritforgeai.com/blog/prompt-engineering-resume/))       |
+| "AI-assisted workflows"                              | **Lands.** ATS-friendly + recruiter-readable                                                                            |
+| "Built / shipped / cut [X] by Y% using [named tool]" | **Lands.** Gold standard                                                                                                |
 
 ## 6. Concrete Bullet Examples Recruiters Have Publicly Praised
 
