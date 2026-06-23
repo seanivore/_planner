@@ -1,9 +1,7 @@
 # Project Name Architecture Overview
 `project.website-if-applicable.com`
 
-**Last Updated**: YYYY-MM-DD
-**Version**: v1.0.0
-**Status**: Status of project — note **shipped** vs **spec-only** when relevant (e.g., "v3 shipped; v4 in active build; v5 spec-only in IMPLEMENT")
+**Last Updated**: YYYY-MM-DD **Version**: v1.0.0 **Status**: Status of project — note **shipped** vs **spec-only** when relevant (e.g., "v3 shipped; v4 in active build; v5 spec-only in IMPLEMENT")
 
 ---
 
@@ -252,32 +250,32 @@ Milestone-level orientation only. Detailed plans for each milestone live in `doc
 ### Key Module Files
 
 **`module-name.js`** — What it does, key functions
-  + Details about what the file does 
-  + Key function of the file 
+  + Details about what the file does
+  + Key function of the file
   + Important note about the file
 
 **`module-name.js`** — What it does, key functions
-  + Details about what the file does 
-  + Key function of the file 
+  + Details about what the file does
+  + Key function of the file
   + Important note about the file
 
 ### Key Setup Files
 
 **`config.json`** — What it configures, schema version
-  + Details about what the file does 
-  + Key function of the file 
+  + Details about what the file does
+  + Key function of the file
   + Important note about the file
 
 ### Key Important File Group
 
 **`another-file-any-type.ts`** — What it does, key functions
-  + Details about what the file does 
-  + Key function of the file 
+  + Details about what the file does
+  + Key function of the file
   + Important note about the file
 
 **`another-file-any-type.ts`** — What it does, key functions
-  + Details about what the file does 
-  + Key function of the file 
+  + Details about what the file does
+  + Key function of the file
   + Important note about the file
 
 ---
@@ -318,8 +316,8 @@ RESULT OF FLOW AND ENDPOINT OF DATA TRANSFORMATION
 
 ### Data Or User States
 
-1. **Important state of data or user**: Implications of the state 
-2. **Result of this state activated**: Change provides what results and benefit 
+1. **Important state of data or user**: Implications of the state
+2. **Result of this state activated**: Change provides what results and benefit
 3. **Next Step In Flow**: Explanation of the step in the flow
 
 ---
@@ -339,7 +337,7 @@ RESULT OF FLOW AND ENDPOINT OF DATA TRANSFORMATION
 
 ### Design Principles
 
-  1. Principle 1 
+  1. Principle 1
     - How it manifests in the design
 
   2. Principle 2
@@ -370,22 +368,22 @@ RESULT OF FLOW AND ENDPOINT OF DATA TRANSFORMATION
 
 ### Things That Look Like Bugs But Aren't
 
-  1. Behavior 
+  1. Behavior
     - Why it's intentional
 
-  2. Behavior 
+  2. Behavior
     - Why it's intentional
 
 ### Common Mistakes to Avoid
 
 * **Don't**
 
-  + Thing not to do 
+  + Thing not to do
   + Why
 
 * **Do**
 
-  + Correct approach 
+  + Correct approach
   + Benefit
 
 ### Important Conventions
@@ -523,15 +521,15 @@ RESULT OF FLOW AND ENDPOINT OF DATA TRANSFORMATION
 
 ### Using Common Tool
 
-Use common tool for regular task. It works in this way, by doing this other thing, and then this final thing. Novel resilience that is beneficial to be know about hte common use tool. 
+Use common tool for regular task. It works in this way, by doing this other thing, and then this final thing. Novel resilience that is beneficial to be know about hte common use tool.
 
 ### Debugging App Function
 
-**Symptoms**: App bug issues explain in short 
+**Symptoms**: App bug issues explain in short
 
 **Check**:
-  1. **Suggestion**: What to do with the suggestion 
-  2. **Suggestion**: How the suggestion could help eliminate the issue 
+  1. **Suggestion**: What to do with the suggestion
+  2. **Suggestion**: How the suggestion could help eliminate the issue
 
 **Common Issues**:
   - **Reoccurring Bug**: How to identify and fix the reoccurring bug
@@ -539,11 +537,11 @@ Use common tool for regular task. It works in this way, by doing this other thin
 
 ### Debugging App Function
 
-**Symptoms**: App bug issues explain in short 
+**Symptoms**: App bug issues explain in short
 
 **Check**:
-  1. **Suggestion**: What to do with the suggestion 
-  2. **Suggestion**: How the suggestion could help eliminate the issue 
+  1. **Suggestion**: What to do with the suggestion
+  2. **Suggestion**: How the suggestion could help eliminate the issue
 
 **Common Issues**:
   - **Reoccurring Bug**: How to identify and fix the reoccurring bug
@@ -553,9 +551,9 @@ Use common tool for regular task. It works in this way, by doing this other thin
 
 ## Key Principles - **REMEMBER THIS**
 
-  1. **Novel App functionality**: How not to break the app functionality 
-  2. **Other App functionality**: How the app functionality can be monitored 
-  3. **Another App Functionality**: 
+  1. **Novel App functionality**: How not to break the app functionality
+  2. **Other App functionality**: How the app functionality can be monitored
+  3. **Another App Functionality**:
     - A type of this app functionality: What this type of the functionality is
     - A type of this app functionality: What this type of the functionality is
 
@@ -563,9 +561,9 @@ Use common tool for regular task. It works in this way, by doing this other thin
 
 ## Related Documentation
 
-- **Name of Documentation**: `location/of/document/` 
-- **Name of Documentation**: `location/of/document/` 
-- **Name of Documentation**: `location/of/document/` 
+- **Name of Documentation**: `location/of/document/`
+- **Name of Documentation**: `location/of/document/`
+- **Name of Documentation**: `location/of/document/`
 
 ---
 *Note about updates, purpose, need-to-knows, etc.*
