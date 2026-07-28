@@ -1,8 +1,7 @@
 # Gap Review Workflow Prompts
 
 ## Clean-Up Grep Usage Mess
-1. Noticed a stray reference that was older than previous version changes. Not surprising after so many surgical edits. Probably time for an end-to-end read to find issues like this and otherwise condense the document. Run sub-agent reviews afterwards. 
-2. Do you think any of these DOCS that just got another surgical updates might benefit from a straight read through to make sure that we don't have any lingering outdated notes from all those rounds of targeted changes and folding in changes. Let's run sub-agents to review afterwards. 
+Had a lot of surgical edits to the build docs (IMPLEMENT and addenda) over time. Leaves behind stray references, mentions to previous version changes. Time to condense things, remove outdated notes, excessive context or version changelog history. Then run two breadth subagents, folding in changes. Then a straight read from end to end to be sure nothing is missing and everything flows the way it's supposed to. 
 
 ## Build Guide Final Cuts
 Remove changelog/provenance and other items that are the wrong context for the final orchestrating agent. Remove slipped-scope rationale, resolved-edges, owner-decision tags, gap-review framing, excessive prose. Want those anchors. Probably don't need scope boundaries if it is made clear that all decisions are made already, but a little context doesn't hurt. 

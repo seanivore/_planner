@@ -14,7 +14,11 @@
       "WebFetch(domain:porterwills.co)",
       "WebFetch(domain:www.monster.com)",
       "WebFetch(domain:www.jobscan.co)",
-      "WebFetch(domain:www.resumeadapter.com)"
+      "WebFetch(domain:www.resumeadapter.com)",
+      "Bash(grep *)",
+      "Bash(md5 *)",
+      "Bash(uid)",
+      "Bash(meid seanivore *)"
     ]
   }
 }
