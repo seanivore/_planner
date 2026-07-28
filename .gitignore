@@ -63,3 +63,11 @@ rusty-tags.vi
 # Design Spec Images 
 .agent/apple-ui-design/**.jpeg
 .agent/apple-ui-design/**.jpg
+# Protocol migration archive (2026-07-28) — local safety net only.
+# Contains a ~/.claude.json backup with userID, OAuth account, and MCP server
+# configs. This repo is public; the archive must stay out of it.
+archive/agents-protocol-2026-07-28/
+
+# Personal, per-machine Claude Code permissions. Accumulates absolute local
+# paths, client filenames, and search patterns from real work — never commit it.
+.claude/settings.local.json
